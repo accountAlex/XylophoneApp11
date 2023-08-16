@@ -10,7 +10,6 @@
 		AC3027A52A8CB51700E18CDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3027A42A8CB51700E18CDB /* AppDelegate.swift */; };
 		AC3027A72A8CB51700E18CDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3027A62A8CB51700E18CDB /* SceneDelegate.swift */; };
 		AC3027A92A8CB51700E18CDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3027A82A8CB51700E18CDB /* ViewController.swift */; };
-		AC3027AC2A8CB51700E18CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3027AA2A8CB51700E18CDB /* Main.storyboard */; };
 		AC3027AE2A8CB51800E18CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3027AD2A8CB51800E18CDB /* Assets.xcassets */; };
 		AC3027C12A8CB86200E18CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3027C02A8CB86200E18CDB /* LaunchScreen.storyboard */; };
 		AC3027CA2A8CC11400E18CDB /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = AC3027C32A8CC11400E18CDB /* A.wav */; };
@@ -20,6 +19,7 @@
 		AC3027CE2A8CC11400E18CDB /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = AC3027C72A8CC11400E18CDB /* G.wav */; };
 		AC3027CF2A8CC11400E18CDB /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = AC3027C82A8CC11400E18CDB /* E.wav */; };
 		AC3027D02A8CC11400E18CDB /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = AC3027C92A8CC11400E18CDB /* D.wav */; };
+		AC3027D22A8CC1F300E18CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3027D12A8CC1F300E18CDB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,6 @@
 		AC3027A42A8CB51700E18CDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC3027A62A8CB51700E18CDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AC3027A82A8CB51700E18CDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC3027AB2A8CB51700E18CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC3027AD2A8CB51800E18CDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC3027B22A8CB51800E18CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC3027C02A8CB86200E18CDB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		AC3027C72A8CC11400E18CDB /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
 		AC3027C82A8CC11400E18CDB /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
 		AC3027C92A8CC11400E18CDB /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		AC3027D12A8CC1F300E18CDB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +73,8 @@
 				AC3027A42A8CB51700E18CDB /* AppDelegate.swift */,
 				AC3027A62A8CB51700E18CDB /* SceneDelegate.swift */,
 				AC3027A82A8CB51700E18CDB /* ViewController.swift */,
-				AC3027AA2A8CB51700E18CDB /* Main.storyboard */,
 				AC3027C02A8CB86200E18CDB /* LaunchScreen.storyboard */,
+				AC3027D12A8CC1F300E18CDB /* Main.storyboard */,
 				AC3027AD2A8CB51800E18CDB /* Assets.xcassets */,
 				AC3027C22A8CC11400E18CDB /* Sounds */,
 				AC3027B22A8CB51800E18CDB /* Info.plist */,
@@ -155,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC3027CE2A8CC11400E18CDB /* G.wav in Resources */,
+				AC3027D22A8CC1F300E18CDB /* Main.storyboard in Resources */,
 				AC3027AE2A8CB51800E18CDB /* Assets.xcassets in Resources */,
 				AC3027CD2A8CC11400E18CDB /* F.wav in Resources */,
 				AC3027C12A8CB86200E18CDB /* LaunchScreen.storyboard in Resources */,
@@ -162,7 +163,6 @@
 				AC3027CC2A8CC11400E18CDB /* B.wav in Resources */,
 				AC3027CF2A8CC11400E18CDB /* E.wav in Resources */,
 				AC3027D02A8CC11400E18CDB /* D.wav in Resources */,
-				AC3027AC2A8CB51700E18CDB /* Main.storyboard in Resources */,
 				AC3027CB2A8CC11400E18CDB /* C.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,17 +181,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		AC3027AA2A8CB51700E18CDB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC3027AB2A8CB51700E18CDB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AC3027B32A8CB51800E18CDB /* Debug */ = {
