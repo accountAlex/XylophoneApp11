@@ -63,9 +63,9 @@
 				AC3027A82A8CB51700E18CDB /* ViewController.swift */,
 				AC3027AA2A8CB51700E18CDB /* Main.storyboard */,
 				AC3027AD2A8CB51800E18CDB /* Assets.xcassets */,
+				AC3027BD2A8CB67400E18CDB /* Sounds */,
 				AC3027BA2A8CB5C500E18CDB /* LaunchScreen.storyboard */,
 				AC3027B22A8CB51800E18CDB /* Info.plist */,
-				AC3027BD2A8CB67400E18CDB /* Sounds */,
 			);
 			path = XylophoneApp;
 			sourceTree = "<group>";
