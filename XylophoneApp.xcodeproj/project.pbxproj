@@ -12,7 +12,8 @@
 		AC3027A92A8CB51700E18CDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3027A82A8CB51700E18CDB /* ViewController.swift */; };
 		AC3027AC2A8CB51700E18CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3027AA2A8CB51700E18CDB /* Main.storyboard */; };
 		AC3027AE2A8CB51800E18CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3027AD2A8CB51800E18CDB /* Assets.xcassets */; };
-		AC3027B12A8CB51800E18CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3027AF2A8CB51800E18CDB /* LaunchScreen.storyboard */; };
+		AC3027BC2A8CB5C500E18CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3027BA2A8CB5C500E18CDB /* LaunchScreen.storyboard */; };
+		AC3027BE2A8CB67400E18CDB /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = AC3027BD2A8CB67400E18CDB /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +23,9 @@
 		AC3027A82A8CB51700E18CDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC3027AB2A8CB51700E18CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC3027AD2A8CB51800E18CDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AC3027B02A8CB51800E18CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC3027B22A8CB51800E18CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3027BB2A8CB5C500E18CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Downloads/MagicBallApp-main/MagicBallApp/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		AC3027BD2A8CB67400E18CDB /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = "../../../Downloads/Xylophone-iOS13-master/Xylophone/Sounds"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,9 @@
 				AC3027A82A8CB51700E18CDB /* ViewController.swift */,
 				AC3027AA2A8CB51700E18CDB /* Main.storyboard */,
 				AC3027AD2A8CB51800E18CDB /* Assets.xcassets */,
-				AC3027AF2A8CB51800E18CDB /* LaunchScreen.storyboard */,
+				AC3027BA2A8CB5C500E18CDB /* LaunchScreen.storyboard */,
 				AC3027B22A8CB51800E18CDB /* Info.plist */,
+				AC3027BD2A8CB67400E18CDB /* Sounds */,
 			);
 			path = XylophoneApp;
 			sourceTree = "<group>";
@@ -125,8 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC3027B12A8CB51800E18CDB /* LaunchScreen.storyboard in Resources */,
+				AC3027BC2A8CB5C500E18CDB /* LaunchScreen.storyboard in Resources */,
 				AC3027AE2A8CB51800E18CDB /* Assets.xcassets in Resources */,
+				AC3027BE2A8CB67400E18CDB /* Sounds in Resources */,
 				AC3027AC2A8CB51700E18CDB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,10 +159,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AC3027AF2A8CB51800E18CDB /* LaunchScreen.storyboard */ = {
+		AC3027BA2A8CB5C500E18CDB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AC3027B02A8CB51800E18CDB /* Base */,
+				AC3027BB2A8CB5C500E18CDB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
