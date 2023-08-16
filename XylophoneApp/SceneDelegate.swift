@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  XylophoneApp
 //
-//  Created by Artem on 16.08.2023.
+//  Created by "Hello, Swift!" on 16.08.2023.
 //
 
 import UIKit
